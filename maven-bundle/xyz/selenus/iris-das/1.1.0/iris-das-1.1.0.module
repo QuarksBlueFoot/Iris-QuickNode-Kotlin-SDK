@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.selenus",
+    "module": "iris-das",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "xyz.selenus",
+          "module": "iris-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iris-das-1.1.0.jar",
+          "url": "iris-das-1.1.0.jar",
+          "size": 261,
+          "sha512": "e7f48f654ec281ef7456b5c152845267ba91479b0b66c5e7edfa47ce58c3e70ba820d4839291b5c0883550889568b74c00617206f00486933ba40421337e58a1",
+          "sha256": "7a1e4165979190b21d82e5b7f437129005b86db5669b1ec3c787a228407c9818",
+          "sha1": "0833e96fe911d3025e280507525c48eabc3585fa",
+          "md5": "75e579ec495ed11ffa5a00884a13c164"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "xyz.selenus",
+          "module": "iris-core",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iris-das-1.1.0.jar",
+          "url": "iris-das-1.1.0.jar",
+          "size": 261,
+          "sha512": "e7f48f654ec281ef7456b5c152845267ba91479b0b66c5e7edfa47ce58c3e70ba820d4839291b5c0883550889568b74c00617206f00486933ba40421337e58a1",
+          "sha256": "7a1e4165979190b21d82e5b7f437129005b86db5669b1ec3c787a228407c9818",
+          "sha1": "0833e96fe911d3025e280507525c48eabc3585fa",
+          "md5": "75e579ec495ed11ffa5a00884a13c164"
+        }
+      ]
+    }
+  ]
+}
