@@ -1,4 +1,4 @@
-﻿rootProject.name = "iris-sdk-parent"
+rootProject.name = "iris-sdk-parent"
 
 include(
     "iris-core",
@@ -13,5 +13,6 @@ include(
     "iris-fastlane",
     "iris-priority",
     "iris-innovations",
+    "iris-nlp",
     "iris-sdk"
 )
